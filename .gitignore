@@ -1,0 +1,30 @@
+# --- SECURITY ---
+# Prevent service account keys and common secret files from being committed
+*.json
+*.pem
+*.key
+*.p12
+*.crt
+*.cer
+*.pfx
+*.jks
+*.keystore
+secrets.*
+config.local.*
+*.tfvars
+*.tfvars.json
+
+# --- PYTHON ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+
+# --- ENVIRONMENT ---
+.env
+
+# --- OS ---
+.DS_Store
+Thumbs.db
